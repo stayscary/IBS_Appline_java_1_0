@@ -20,6 +20,6 @@ public class Homework_3 {
 
         System.out.println();
 
-        System.out.println("Сумма первого и среднего элемента = " + (array[0] + array[array.length/2]));
+        System.out.println("Сумма первого и среднего элемента = " + (array[0] + array[array.length / 2]));
     }
 }
