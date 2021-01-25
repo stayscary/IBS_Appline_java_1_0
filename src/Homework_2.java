@@ -8,11 +8,11 @@ public class Homework_2 {
 
         // Создайте переменную целочисленного типа с наименьшим диапазоном чисел.
         // Присвойте  ей наибольшее возможное значение.
-        // Типом данной переменной является - Float.
-        float floatNum;
-        floatNum = Float.MAX_VALUE;
+        // Типом данной переменной является - byte.
+        byte byteNum;
+        byteNum = Byte.MAX_VALUE;
 
         System.out.println("Double number = " + doubleNum);
-        System.out.println("Float number = " + floatNum);
+        System.out.println("Byte number = " + byteNum);
     }
 }
