@@ -5,6 +5,7 @@ public class Homework_4 {
         Scanner scanner = new Scanner(System.in);
         double average;
         double floor;
+
         // 1. Ввести три числа с клавиатуры x, y, z
         System.out.print("Введите число x = ");
         double x = scanner.nextDouble();
