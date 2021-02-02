@@ -20,12 +20,8 @@ public class Homework_7 {
 
         // 2. Сравнить элементы массива с заранее заданными константами x, y, z.
         // 3. Если массив содержит хотя бы одну из констант, вывести текст "Данное значение имеется в константах".
-        for (int number:array) {
-            if (number == x) {
-                System.out.println(number + " - Данное значение имеется в константах");
-            } else if (number == y) {
-                System.out.println(number + " - Данное значение имеется в константах");
-            } else if (number == z) {
+        for (int number : array) {
+            if (number == x || number == y || number == z) {
                 System.out.println(number + " - Данное значение имеется в константах");
             } else {
                 System.out.println(number);
