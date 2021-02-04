@@ -15,7 +15,7 @@ public class FinalHomework_3 {
         int[] intArray = new int[n];
 
         for (int i = 0; i < array.length; i++) {
-            System.out.printf("Строка %d: ", i+1);
+            System.out.printf("Строка %d: ", i + 1);
             array[i] = scanner.next();
         }
 
