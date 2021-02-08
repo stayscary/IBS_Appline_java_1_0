@@ -9,15 +9,15 @@ public class Homework_12 {
 
         // 1. Проверить, содержит ли строка подстроку “Java” (используйте contains()).
         boolean contains = str.contains("Java");
-        System.out.println("1. " + str.contains("Java"));
+        System.out.println("1. " + contains);
 
         // 2. Проверить, начинается ли строка с подстроки “I like” (используйте startsWith()).
         boolean startsWith = str.startsWith("I like");
-        System.out.println("2. " + str.startsWith("I like"));
+        System.out.println("2. " + startsWith);
 
         // 3. Проверить, заканчивается ли строка с подставки “!!!” (используйте endsWith()).
         boolean endsWith = str.endsWith("!!!");
-        System.out.println("3. " + str.endsWith("!!!"));
+        System.out.println("3. " + endsWith);
 
         // 4. Если 3 предыдущих условия верны, выведите данную строку, преобразованную к верхнему регистру.
         if (contains & startsWith & endsWith) {
